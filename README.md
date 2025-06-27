@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+# 🛒 NeoKart E-Commerce
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NeoKart is a modern, responsive e-commerce web app built using **React**. It features categorized product sections (Fruits, Dry Fruits, Vegetables, Electronics), a horizontal scroll product view, and GitHub Pages deployment.
 
-## Available Scripts
+![ezgif-1-a232e3d324](https://github.com/user-attachments/assets/7f72ac3f-11c8-4650-b738-80a875abf9a0)
 
-In the project directory, you can run:
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🔄 Horizontally scrollable product categories
+- ❤️ Like (wishlist) products
+- ⭐ Static 4-star ratings
+- 🏷️ Discount tags and NEW product labels
+- 🛒 Add to cart button
+- 📱 Responsive layout
+- 🚀 Deployed with GitHub Pages
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![ezgif-1-a232e3d324](https://github.com/user-attachments/assets/2262d6dd-88c3-427f-a30b-ba721bd58cec)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Live Demo
 
-### `npm run build`
+🌐 [Visit Live Site](https://2024yuva.github.io/neokart-ecom)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![ezgif-1-a232e3d324](https://github.com/user-attachments/assets/c86cfdd7-5851-498a-8b35-3b6aa02b9f13)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🧠 Tech Stack
 
-### `npm run eject`
+| Technology     | Usage                           |
+|----------------|----------------------------------|
+| **React 19**   | Frontend framework               |
+| React Scripts  | Project scaffolding and scripts |
+| CSS Flexbox    | Responsive layout                |
+| CSS Scroll Snap| Horizontal scrolling effect      |
+| GitHub Pages   | Hosting and deployment           |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![ezgif-1-a232e3d324](https://github.com/user-attachments/assets/98210751-c5dc-4995-99d5-fe97cf971e01)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📁 Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+neokart-ecom/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Footer.jsx
+│   │   └── Products.jsx
+│   └── App.js
+├── package.json
+├── README.md
+└── ...
+```
 
-## Learn More
+![ezgif-1-a232e3d324](https://github.com/user-attachments/assets/241e0865-b8a7-4258-a604-c27fd8dde67c)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🛠️ Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🔧 1. Clone the Repo
+bash
+Always show details
 
-### Code Splitting
+```
+git clone https://github.com/2024yuva/neokart-ecom.git
+cd neokart-ecom
+```
+---
+⚙️ 2. Install Dependencies
+bash
+Always show details
+```
+npm install
+```
+---
+▶️ 3. Start Local Server
+bash
+Always show details
+```
+npm start
+```
+This will open the app on http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🍴 How to Fork This Project
+If you'd like to contribute or customise NeoKart for your use:
+Click the Fork button (top-right) in this page.
 
-### Analyzing the Bundle Size
+Open your forked repo and clone it:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+bash
+Always show details
+```
+git clone https://github.com/YOUR_USERNAME/neokart-ecom.git
+cd neokart-ecom
+```
+Then, install required dependenties
+```
+npm install
+npm start
+```
+Now you're running the project locally!
 
-### Making a Progressive Web App
+![A83CA8AD-E686-4D1A-B249-165287F5C00F](https://github.com/user-attachments/assets/ca69ac32-6b12-4688-9bc6-518e2361c5d8)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 👤 Author
 
-### Advanced Configuration
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/2024yuva">
+        <img src="https://avatars.githubusercontent.com/2024yuva" width="100px;" alt="GitHub Avatar"/><br />
+        <sub><b>Yuva</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![A83CA8AD-E686-4D1A-B249-165287F5C00F](https://github.com/user-attachments/assets/d0f1893e-2726-4465-9d7f-493490bc8941)
 
-### Deployment
+## 🙌 Contributing
+Pull requests are welcome! Fork the repo, make changes, and submit a PR.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![image](https://github.com/user-attachments/assets/e2b832a7-a894-4d0f-96c3-5877612964b7)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📄 License
+This project is open source and free to use.
+"""
