@@ -1,41 +1,44 @@
 import React, { useState } from 'react';
+import { useCart } from '../context/CartContext';
 
 const dryFruits = [
-  { name: 'Almonds', price: '₹500 / 500g', img: '/images/almond.jpg', discount: '13%', originalPrice: '₹400.00', isNew: true },
-  { name: 'Cashews', price: '₹550 / 500g', img: '/images/cashews.jpg' },
-  { name: 'Raisins', price: '₹250 / 500g', img: '/images/raisins.jpeg' },
-  { name: 'Walnuts', price: '₹600 / 500g', img: '/images/walnuts.jpg' },
+  { id: 1, name: 'Almonds', price: 500, img: '/images/almond.jpg', discount: '13%', originalPrice: '₹400.00', isNew: true },
+  { id: 2, name: 'Cashews', price: 550, img: '/images/cashews.jpg' },
+  { id: 3, name: 'Raisins', price: 250, img: '/images/raisins.jpeg' },
+  { id: 4, name: 'Walnuts', price: 600, img: '/images/walnuts.jpg' },
 ];
 
 const fruits = [
-  { name: 'Strawberries', price: '₹120.00', img: '/images/strawberries.jpg', discount: '20%', originalPrice: '₹150.00' },
-  { name: 'Oranges', price: '₹80 / kg', img: '/images/oranges.jpg' },
-  { name: 'Grapes', price: '₹100 / kg', img: '/images/grapes.jpg' },
-  { name: 'Mangoes', price: '₹150 / kg', img: '/images/mangoes.jpg' },
-  { name: 'Apples', price: '₹180 / kg', img: '/images/apple.jpg' },
-  { name: 'Bananas', price: '₹50 / dozen', img: '/images/banana.jpg' },
+  { id: 5, name: 'Strawberries', price: 120, img: '/images/strawberries.jpg', discount: '20%', originalPrice: '₹150.00' },
+  { id: 6, name: 'Oranges', price: 80, img: '/images/oranges.jpg' },
+  { id: 7, name: 'Grapes', price: 100, img: '/images/grapes.jpg' },
+  { id: 8, name: 'Mangoes', price: 150, img: '/images/mangoes.jpg' },
+  { id: 9, name: 'Apples', price: 180, img: '/images/apple.jpg' },
+  { id: 10, name: 'Bananas', price: 50, img: '/images/banana.jpg' },
 ];
 
 const vegetables = [
-  { name: 'Carrots', price: '₹60 / kg', img: '/images/carrots.jpg' },
-  { name: 'Potatoes', price: '₹30 / kg', img: '/images/potatoes.jpg' },
-  { name: 'Tomatoes', price: '₹40 / kg', img: '/images/tomatoes.jpg' },
-  { name: 'Onions', price: '₹50 / kg', img: '/images/onions.jpg' },
-  { name: 'Spinach', price: '₹30 / bunch', img: '/images/spinach.jpg' },
+  { id: 11, name: 'Carrots', price: 60, img: '/images/carrots.jpg' },
+  { id: 12, name: 'Potatoes', price: 30, img: '/images/potatoes.jpg' },
+  { id: 13, name: 'Tomatoes', price: 40, img: '/images/tomatoes.jpg' },
+  { id: 14, name: 'Onions', price: 50, img: '/images/onions.jpg' },
+  { id: 15, name: 'Spinach', price: 30, img: '/images/spinach.jpg' },
 ];
 
 const electronics = [
-  { name: 'Usb cable', price: '₹80', img: '/images/usbcable.jpg' },
-  { name: 'Prestige Grinder', price: '₹20,000', img: '/images/grinder.jpg' },
+  { id: 16, name: 'Usb cable', price: 80, img: '/images/usbcable.jpg' },
+  { id: 17, name: 'Prestige Grinder', price: 20000, img: '/images/grinder.jpg' },
 ];
 
 function ProductSection({ title, items, likes, toggleLike, offset }) {
+  const { addToCart } = useCart();
+
   return (
     <section className="products">
       <h2>{title}</h2>
       <div className="scroll-container">
         {items.map((product, index) => (
-          <div className="product-card" key={index + offset}>
+          <div className="product-card" key={product.id}>
             <div className="product-img-wrapper">
               {product.discount && <div className="discount-tag">{product.discount} OFF</div>}
               {product.isNew && <div className="new-tag">NEW</div>}
@@ -46,11 +49,11 @@ function ProductSection({ title, items, likes, toggleLike, offset }) {
             </div>
             <h3>{product.name}</h3>
             <p>
-              <span className="price">{product.price}</span>{' '}
+              <span className="price">₹{product.price}</span>{' '}
               {product.originalPrice && <span className="original-price">{product.originalPrice}</span>}
             </p>
             <div className="stars">⭐⭐⭐⭐☆</div>
-            <button className="add-btn">🛒 Add</button>
+            <button className="add-btn" onClick={() => addToCart(product)}>🛒 Add</button>
           </div>
         ))}
       </div>
