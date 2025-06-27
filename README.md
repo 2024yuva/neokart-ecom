@@ -1,15 +1,24 @@
 # 🛒 NeoKart E-Commerce
 
-NeoKart is a modern, responsive e-commerce web app built using **React**. It features categorized product sections (Fruits, Dry Fruits, Vegetables, Electronics), a horizontal scroll product view, and GitHub Pages deployment.
+🛍 NeoKart is a modern and responsive e-commerce web application built with React. It includes categorised product sections such as Fruits, Dry Fruits, Vegetables, and Electronics, features a horizontal scroll for product viewing, and is deployed on GitHub Pages.
 
 ![ezgif-1-a232e3d324](https://github.com/user-attachments/assets/7f72ac3f-11c8-4650-b738-80a875abf9a0)
 
+
+## 🍀 Tracking 
+
+![GitHub Repo stars](https://img.shields.io/github/stars/2024yuva/neokart-ecom?style=social)
+![Last Commit](https://img.shields.io/github/last-commit/2024yuva/neokart-ecom)
+![Issues](https://img.shields.io/github/issues/2024yuva/neokart-ecom)
+![Forks](https://img.shields.io/github/forks/2024yuva/neokart-ecom?style=social)
+
+![ezgif-1-a232e3d324](https://github.com/user-attachments/assets/7f72ac3f-11c8-4650-b738-80a875abf9a0)
 
 ## ✨ Features
 
 - 🔄 Horizontally scrollable product categories
 - ❤️ Like (wishlist) products
-- ⭐ Static 4-star ratings
+- 🌟 Static 4-star ratings
 - 🏷️ Discount tags and NEW product labels
 - 🛒 Add to cart button
 - 📱 Responsive layout
@@ -21,6 +30,7 @@ NeoKart is a modern, responsive e-commerce web app built using **React**. It fea
 ## 🚀 Live Demo
 
 🌐 [Visit Live Site](https://2024yuva.github.io/neokart-ecom)
+Also check out the live demo in [vercel](https://neokart-ecom.vercel.app/) attached!
 
 ![ezgif-1-a232e3d324](https://github.com/user-attachments/assets/c86cfdd7-5851-498a-8b35-3b6aa02b9f13)
 
@@ -103,21 +113,38 @@ Now you're running the project locally!
 
 ![A83CA8AD-E686-4D1A-B249-165287F5C00F](https://github.com/user-attachments/assets/ca69ac32-6b12-4688-9bc6-518e2361c5d8)
 
-## 👤 Author
+## 📇 Author Info
 
-<table>
+<table align="center">
   <tr>
     <td align="center">
       <a href="https://github.com/2024yuva">
-        <img src="https://avatars.githubusercontent.com/2024yuva" width="100px;" alt="GitHub Avatar"/><br />
-        <sub><b>Yuva</b></sub>
+        <img src="https://avatars.githubusercontent.com/2024yuva" width="120px" style="border-radius: 50%;" alt="Yuva's Avatar"/><br />
+        <sub><b>Yuva</b></sub><br />
+        <i>Frontend Developer <i>
       </a>
     </td>
   </tr>
 </table>
 
-![A83CA8AD-E686-4D1A-B249-165287F5C00F](https://github.com/user-attachments/assets/d0f1893e-2726-4465-9d7f-493490bc8941)
+---
 
+### 🧰 Tools & Technologies I'm expertized 
+
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git)
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
+
+---
+
+### 🌐 Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Yuvarrunjitha_R_S-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/yuvarrunjitha-r-s-05979a302)
+[![GitHub](https://img.shields.io/badge/Follow_Me-GitHub-black?style=flat-square&logo=github)](https://github.com/2024yuva)
 ## 🙌 Contributing
 Pull requests are welcome! Fork the repo, make changes, and submit a PR.
 
