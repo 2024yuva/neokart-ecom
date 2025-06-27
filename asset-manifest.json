@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/neokart-ecom/static/css/main.b6a71049.css",
+    "main.js": "/neokart-ecom/static/js/main.8a7efd79.js",
+    "index.html": "/neokart-ecom/index.html",
+    "main.b6a71049.css.map": "/neokart-ecom/static/css/main.b6a71049.css.map",
+    "main.8a7efd79.js.map": "/neokart-ecom/static/js/main.8a7efd79.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6a71049.css",
+    "static/js/main.8a7efd79.js"
+  ]
+}
