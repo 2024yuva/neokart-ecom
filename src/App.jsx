@@ -1,5 +1,5 @@
 import React from "react";
-import { CartProvider } from "./context/CartContext";
+import { CartProvider } from "./components/CartContext";
 
 import Header from "./components/Header";
 import Hero from "./components/Hero";

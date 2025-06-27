@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useCart } from '../context/CartContext';
+import { useCart } from '../components/CartContext';
 
 const dryFruits = [
   { id: 1, name: 'Almonds', price: 500, img: '/images/almond.jpg', discount: '13%', originalPrice: '₹400.00', isNew: true },
